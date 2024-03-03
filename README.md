@@ -1,4 +1,11 @@
 # REST APIs with Flask and Python
+## CompChimera Fork
+<p>
+Folder refresher contains some notes and tests from going through the refresher section of this course. 
+</p>
+
+<details>
+<summary>Rest of original Readme</summary>
 
 <p align="center">
  <img src="assets/course-image.png" alt="REST APIs with Flask and Python (Udemy banner image)"></a>
@@ -75,3 +82,4 @@ A quick and intense course on Git and GitHub for code sharing.
 ## Section 11: Deploying to Render.com
 
 Learn how to get your code running in the cloud and make it publicly accessible. In this section we use Render.com for deployments and we also deploy a PostgreSQL database.
+</details>
