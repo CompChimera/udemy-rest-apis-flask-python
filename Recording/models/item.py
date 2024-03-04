@@ -12,3 +12,4 @@ class ItemModel(db.Model):
     # Because the StoreModel says it's connected to the stores table
     #  back_populates means that store.py will have an items relationship
     store = db.relationship("StoreModel", back_populates="items")
+    tags = db.relationship("TagModel", back_populates="items", secondary="items_tags")
