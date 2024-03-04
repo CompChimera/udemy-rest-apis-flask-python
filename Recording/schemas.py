@@ -6,6 +6,7 @@ class ItemSchema(Schema):
     id = fields.Str(dump_only=True)
     # because we accept name through the JSON payload, add req  if req
     name = fields.Str(required=True)
+    price = fields.Float(required=True)
     store_id = fields.Str(required=True)
 
 class ItemUpdateSchema(Schema):
