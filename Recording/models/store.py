@@ -9,3 +9,4 @@ class StoreModel(db.Model):
     # tells alchemy there's two ends of a relationship because of these lines in both files
     # Dynamic means they won't be fetched from DB until we tell it to
     items = db.relationship("ItemModel", back_populates="store", lazy="dynamic", cascade="all, delete")
+    tags = db.relationship("TagModel", back_populates="store", lazy="dynamic")
