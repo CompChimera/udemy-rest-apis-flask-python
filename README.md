@@ -1,7 +1,10 @@
 # REST APIs with Flask and Python
 ## CompChimera Fork
 <p>
-Folder refresher contains some notes and tests from going through the refresher section of this course. 
+Folder `refresher` contains some notes and tests from going through the refresher section of this course. 
+</p>
+<p>
+Folder `Recording` has the example we worked through for learning how REST APIs are implemented in Python. Contains notes as I followed along, and detailed README for install instructions
 </p>
 
 <details>
